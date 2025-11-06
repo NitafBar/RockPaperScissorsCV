@@ -59,7 +59,7 @@ while cap.isOpened():
             ring_centre = hand_landmarks.landmark[13]
             pinky_centre = hand_landmarks.landmark[17]
 
-            # Compute gestureqwqqq
+            # Compute gesture
             if index_tip.y > index_centre.y and middle_tip.y > middle_centre.y and ring_tip.y > ring_centre.y and pinky_tip.y > pinky_centre.y:
                 gesture = "Rock"
             elif index_tip.y < index_centre.y and middle_tip.y < middle_centre.y and ring_tip.y < ring_centre.y and pinky_tip.y < pinky_centre.y:
