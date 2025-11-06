@@ -1,6 +1,6 @@
 # Rock Paper Scissors - Hand Gesture Recognition (Computer Vision)
 
-A webcam based rock paper scissors game using hand gesture recognition (computer vision) using OpenCV and Google's MediaPipe.
+A webcam based rock paper scissors game featuring hand gesture recognition (computer vision) using OpenCV and Google's MediaPipe.
 
 ## Features
 - Hand tracking and gesture detection
