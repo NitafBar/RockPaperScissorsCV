@@ -32,4 +32,4 @@ Make hand gestures in front of your webcam:
 Press 'q' to quit.
 
 ## How It Works
-The game uses OpenCV to access the webcam and handles image processing and display. Then, MediaPipe's hand tracking model is used detect hand landmarks and classify gestures based on finger positions. When a valid gesture is detected, a 3 second countdown begins before the computer makes its move.
+The game uses OpenCV to access the webcam and handles image processing and display. Then, MediaPipe's hand tracking model is used to detect hand landmarks and classify gestures based on finger positions. When a valid gesture is detected, a 3 second countdown begins before the computer makes its move.
